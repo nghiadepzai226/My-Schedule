@@ -1,0 +1,131 @@
+/* Apply for log in and sign up page */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.main-register {
+    background-color: #FFFFFF;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.brand h1 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 0;
+    color: rgb(236, 30, 95);
+}
+
+.brand span {
+    padding-top: 0;
+}
+
+.brand img {
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+   
+}
+
+.register-form {
+    border: 2px solid black;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
+.sign-up-form {
+    height: 370px;
+}
+
+.register-form h3 {
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.register-form form {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form label {
+    margin-bottom: 5px;
+}
+
+.register-form input {
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+.register-form a {
+    text-decoration: none;
+    color: #0095FF;
+    align-self: center;
+}
+
+.register-form a:hover {
+    text-decoration: underline;
+}
+
+.register-form button {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: white;
+    border: none;
+    background-color: #0095FF;
+    border-radius: 25px;
+    padding: 5px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.register-form button:hover {
+    background-color: #0086E6 ;
+}
+
+/* Validation error*/
+.form-error {
+    color: #FF0000;
+    display: none;
+}
